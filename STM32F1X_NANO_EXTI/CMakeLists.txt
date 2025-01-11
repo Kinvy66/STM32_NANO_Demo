@@ -12,8 +12,7 @@ set(CMAKE_OBJCOPY arm-none-eabi-objcopy)
 set(CMAKE_OBJDUMP arm-none-eabi-objdump)
 set(SIZE arm-none-eabi-size)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
-set(COMMON_FLAGS "-specs=nosys.specs -specs=nano.specs -u _printf_float ")
-
+set(COMMON_FLAGS "-specs=nosys.specs -specs=nano.specs -u _printf_float")
 
 # project settings
 project(STM32F1X_NANO_EXTI C CXX ASM)
@@ -51,23 +50,17 @@ else ()
     add_compile_options(-Og -g)
 endif ()
 
-include_directories(Core/Inc
-        Drivers/STM32F1xx_HAL_Driver/Inc
-        Drivers/STM32F1xx_HAL_Driver/Inc/Legacy
-        Drivers/CMSIS/Device/ST/STM32F1xx/Include
-        Drivers/CMSIS/Include
-        BSP
-        UserApp
+include_directories(Core/Inc Drivers/STM32F1xx_HAL_Driver/Inc Drivers/STM32F1xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F1xx/Include Drivers/CMSIS/Include
+            BSP
+            UserApp
 )
+
 add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB)
 
-file(GLOB_RECURSE SOURCES
-        "Core/*.*"
-        "Drivers/*.*"
-        "BSP/*.*"
-        "UserApp/*.*"
+file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
+         "BSP/*.*"
+         "UserApp/*.*"
 )
-
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F103RBTX_FLASH.ld)
 
