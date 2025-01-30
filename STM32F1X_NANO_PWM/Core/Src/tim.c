@@ -157,31 +157,4 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
 
 /* USER CODE BEGIN 1 */
 
-/**
- * @brief pwm中断
- * @param htim
- */
-void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim)
-{
-    if (htim->Instance != TIM3) {
-        return;
-    }
-
-    if (pulseChangeDirection) {
-        pulseWidth++;
-        if (pulseWidth >= ARR_REGISTER) {
-            pulseWidth = ARR_REGISTER;
-            pulseChangeDirection = 0;
-        }
-    } else {
-        pulseWidth--;
-        if(pulseWidth <= 5) {
-            pulseWidth = 5;
-            pulseChangeDirection  = 1;
-        }
-    }
-    __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, pulseWidth);
-    // HAL_Delay(10);
-
-}
 /* USER CODE END 1 */
