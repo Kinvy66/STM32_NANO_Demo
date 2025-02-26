@@ -1,0 +1,3 @@
+[submodule "doc/Note"]
+	path = doc/Note
+	url = https://github.com/Kinvy66/STM32NANO_Note.git
