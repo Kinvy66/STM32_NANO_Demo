@@ -13,6 +13,7 @@
 #include "beep.h"
 #include "key.h"
 #include "uart.h"
+#include <stdio.h>
 
 /**
  * @brief Hardware Init
@@ -21,6 +22,8 @@ void hw_init(void) {
     LED0_OFF;
     LED1_OFF;
     BEEP_OFF;
+    uart_recv();
+
 }
 
 /**
@@ -30,5 +33,7 @@ void hw_init(void) {
 int app(void) {
     // uart_send();
     // uart_recv();
+    printf("Hello world!\r\n");
+    HAL_Delay(1000);
     return 0;
 }
