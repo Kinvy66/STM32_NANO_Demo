@@ -27,6 +27,9 @@
 #include "lcd_spi_169.h"
 #include "lcd_test.h"
 #include "app.h"
+#include "key.h"
+#include "w25xx_flash.h"
+#include "retarget.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,20 +95,32 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   MX_SPI3_Init();
+  MX_SPI2_Init();
   /* USER CODE BEGIN 2 */
   hw_init();
   LCD_Init();
+    RetargetInit(&huart1);
+    LCD_SetBackColor(LCD_BLACK); 			//	设置背景色
+    // LCD_Clear(); 								// 清屏
+
+    LCD_SetColor(LCD_WHITE);
+    LCD_SetAsciiFont(&ASCII_Font20); LCD_DisplayString(0, 20," SPI Flash Demo");
+    uint16_t id = Flash_ReadID();
+    printf("flash ID: %d\r\n", id);
+    char buf[25];
+    sprintf(buf, " SPI ID: %04X", id);
+    LCD_SetAsciiFont(&ASCII_Font20); LCD_DisplayString(0, 40,buf);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      LCD_Test_Clear();
-      // LCD_Test_Text();
-      HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
-      HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
-      HAL_Delay(500);
+        app();
+
+      // HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+      HAL_Delay(100);
 
     /* USER CODE END WHILE */
 

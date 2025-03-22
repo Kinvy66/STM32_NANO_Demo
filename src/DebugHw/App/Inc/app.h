@@ -12,4 +12,6 @@
 void hw_init(void);
 int app(void);
 
+void flash_test(void);
+
 #endif //INC_00_TEMPLATE_APP_H
