@@ -27,5 +27,6 @@ void hw_init(void) {
  * @return
  */
 int app(void) {
+
     return 0;
 }
