@@ -6,27 +6,21 @@
 * @description: 
 **/
 
-#include "app.h"
+#include "common_inc.h"
+#include "test.h"
+
 #include "stm32f1xx_hal.h"
-#include "main.h"
-#include "led.h"
-#include "beep.h"
-#include "key.h"
 
 /**
- * @brief Hardware Init
- */
-void hw_init(void) {
-    LED0_OFF;
-    LED1_OFF;
-    BEEP_ON;
-}
-
-/**
- * @brief Application Entry
+ * @brief Application entry
  * @return
  */
-int app(void) {
-
-    return 0;
+void app_main(void)
+{
+    while(1)
+    {
+        // led_test();
+        // key_test();
+    }
 }
+

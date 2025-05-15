@@ -6,25 +6,19 @@
 * @description: 
 **/
 
-#include "app.h"
+#include "common_inc.h"
+#include "test.h"
 #include "stm32f1xx_hal.h"
-#include "main.h"
-#include "led.h"
-
-/**
- * @brief hardware init
- */
-void hw_init() {
-    LED0_OFF;
-    LED1_OFF;
-}
 
 /**
  * @brief Application entry
  * @return
  */
-int app(void) {
-    LED0_BLINK(500);
-    return 0;
+void app_main(void)
+{
+    while(1)
+    {
+        led_test();
+    }
 }
 

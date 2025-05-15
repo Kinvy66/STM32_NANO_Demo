@@ -7,6 +7,8 @@
 **/
 #include "key.h"
 
+#include "led.h"
+
 /**
  * @brief 按键扫描
  * @param mode 0: 单次触发， 1:长按模式
@@ -34,12 +36,12 @@ uint8_t key_scan(uint8_t mode) {
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     if (GPIO_Pin == KEY0_Pin)
     {
-        HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
+        LED0_TOGGLE();
         HAL_Delay(500);
     }
     else if (GPIO_Pin == KEY1_Pin)
     {
-        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+        LED1_TOGGLE();
         HAL_Delay(1000);
     }
     else if (GPIO_Pin == KEY2_Pin)
@@ -49,8 +51,8 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     }
     else if (GPIO_Pin == WK_UP_Pin)
     {
-        HAL_GPIO_TogglePin(LED0_GPIO_Port, LED0_Pin);
-        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+        LED0_TOGGLE();
+        LED1_TOGGLE();
         HAL_Delay(1000);
     }
 }
