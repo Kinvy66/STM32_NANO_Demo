@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="09_TIM_OutCompare" targetName="09_TIM_OutCompare" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+      <configuration PROFILE_NAME="Debug - Debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Debug" />
+      <configuration PROFILE_NAME="RelWithDebInfo - RelWithDebInfo" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/RelWithDebInfo" />
+      <configuration PROFILE_NAME="Release - Release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/Release" />
+      <configuration PROFILE_NAME="MinSizeRel - MinSizeRel" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/MinSizeRel" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="170829bb-1099-42fa-a180-4768f3ff8552" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../00_Template/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_Template/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_Template/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_Template/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../00_Template/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_GPIO_KEY/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_USART_DMA/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_USART_DMA/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_USART_DMA/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_USART_DMA/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_USART_DMA/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/startup_stm32f103xe.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/debugServers/ST_LINK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/startup_stm32f103xe.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.idea/runConfigurations/OCD_00_Template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/00_Template.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/00_Template.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../00_Template/st_nucleo_f103rb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/runConfigurations/OCD_01_GPIO_LED.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/01_GPIO_LED.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/01_GPIO_LED.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/stlink.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/runConfigurations/OCD_02_GPIO_KEY.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../02_GPIO_KEY/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/02_GPIO_KEY.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../02_GPIO_KEY/02_GPIO_KEY.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../02_GPIO_KEY/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../02_GPIO_KEY/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/stlink.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/runConfigurations/OCD_03_GPIO_EXTI.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/03_GPIO_EXTI.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/03_GPIO_EXTI.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/stlink.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/runConfigurations/OCD_04_USART.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/04_USART.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/04_USART.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/stlink.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/dictionaries/project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/runConfigurations/OCD_05_USART_DMA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../05_USART_DMA/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/05_USART_DMA.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../05_USART_DMA/05_USART_DMA.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05_USART_DMA/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../05_USART_DMA/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/st_nucleo_f103rb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.idea/runConfigurations/OCD_06_LCD.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/06_LCD.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/06_LCD.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/st_nucleo_f103rb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/runConfigurations/OCD_07_TIM_LED.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/07_TIM_LED.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/07_TIM_LED.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/stm32f103rctx_flash.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/st_nucleo_f103rb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/runConfigurations/OCD_08_TIM_PWM_OUT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.mxproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/08_TIM_PWM_OUT.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/08_TIM_PWM_OUT.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/STM32F103RCTX_FLASH.ld" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/st_nucleo_f103rb.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cproject" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/OCD_09_TIM_OutCompare.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_TIM_OutCompare.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/09_TIM_OutCompare.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists_template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103RCTX_FLASH.ld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/st_nucleo_f103rb.cfg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="1.1" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xl5cGuvOdYzfP0WezHXyajth35" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.cidr.cpp.execution.gdbserver.debugtargets.NamedDebugTargetConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="09_TIM_OutCompare" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="09_TIM_OutCompare" TARGET_NAME="09_TIM_OutCompare" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="09_TIM_OutCompare" RUN_TARGET_NAME="09_TIM_OutCompare">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="170829bb-1099-42fa-a180-4768f3ff8552" name="Changes" comment="" />
+      <created>1748499900014</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748499900014</updated>
+      <workItem from="1748499900032" duration="32000" />
+      <workItem from="1748499947133" duration="185000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>
