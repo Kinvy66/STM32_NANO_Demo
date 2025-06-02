@@ -8,6 +8,7 @@
 
 #include "common_inc.h"
 #include "test.h"
+#include "lcd.h"
 
 /**
  * @brief Application entry
@@ -20,7 +21,9 @@ void app_main(void)
         // led_test();
         // key_test();
         // uart_test();
-        lcd_test();
-
+        // lcd_test();
+        // tim_led();
+        tim_pwm();
     }
+
 }

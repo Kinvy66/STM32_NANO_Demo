@@ -252,7 +252,7 @@ void LCD_Init(void)
 
 // 以下进行一些驱动的默认设置
     LCD_SetDirection(Direction_V);  	      //	设置显示方向
-    LCD_SetBackColor(LCD_BLACK);           // 设置背景色
+    LCD_SetBackColor(LCD_WHITE);           // 设置背景色
     LCD_SetColor(LCD_WHITE);               // 设置画笔色
     LCD_Clear();                           // 清屏
 

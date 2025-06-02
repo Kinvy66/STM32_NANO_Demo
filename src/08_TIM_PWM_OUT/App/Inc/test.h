@@ -9,7 +9,6 @@ void led_test();
 void key_test();
 void uart_test();
 void usart_dma_test();
-void lcd_test();
 void tim_led();
 void tim_pwm();
 

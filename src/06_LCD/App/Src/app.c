@@ -8,6 +8,7 @@
 
 #include "common_inc.h"
 #include "test.h"
+#include "lcd.h"
 
 /**
  * @brief Application entry

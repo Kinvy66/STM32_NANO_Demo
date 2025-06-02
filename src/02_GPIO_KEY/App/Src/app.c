@@ -2,26 +2,38 @@
 * @file app.c
 * @author Kinvy
 * @email kinvy66@163.com
-* @date: 2025/2/16 21:13
+* @date: 2025/6/2 18:03
 * @description: 
 **/
+#include "app.h"
 
-#include "common_inc.h"
-#include "test.h"
-
-#include "stm32f1xx_hal.h"
-
-/**
- * @brief Application entry
- * @return
- */
 void app_main(void)
 {
-    while(1)
-    {
-        // led_test();
-        key_test();
+    uint8_t key = 0;
+    while (1) {
+        key = key_scan(0);
+        switch (key) {
+            case KEY1_PRES://KEY0
+                LED1_TOGGLE();
+                break;
+
+            case KEY2_PRES://KEY1
+                LED2_TOGGLE();
+                // LED1_TOGGLE();
+                break;
+
+            case KEY3_PRES://控制BEEP
+                LED1_TOGGLE();
+                LED2_TOGGLE();
+                break;
+
+            case WKUP_PRES://KEY_UP
+                LED1_TOGGLE();
+                LED2_TOGGLE();
+                break;
+            default:
+                HAL_Delay(10);
+                break;
+        }
     }
 }
-
-

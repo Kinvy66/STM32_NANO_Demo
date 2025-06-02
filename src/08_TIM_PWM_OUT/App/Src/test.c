@@ -5,7 +5,7 @@
 #include "led.h"
 #include "key.h"
 #include "usart.h"
-#include "lcd_test.h"
+#include "lcd.h"
 #include <string.h>
 #include "tim.h"
 
@@ -103,35 +103,31 @@ void usart_dma_test()
     HAL_UART_Receive_DMA(&huart1, rxBuffer, RX_CMD_LEN);
 }
 
-void lcd_test()
-{
-    LCD_Init();
-    LCD_Test_Clear();
-    LCD_Test_Text();
-}
-
 void tim_led()
 {
-    HAL_TIM_Base_Start_IT(&htim5);
-    /* USER CODE END 2 */
-
-    /* Infinite loop */
-    // /* USER CODE BEGIN WHILE */
+    lcd_init();
+    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer LED Demo");
+    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED1 & LED2");
+    // HAL_TIM_Base_Start_IT(&htim6);
+    // uint8_t key = 0;
     // while (1) {
-    //     KEYS curKey = ScanPressedKey(KEY_WAIT_ALWAYS);
-    //     if (curKey == KEY_RIGHT) {
-    //         LED2_ON();
+    //     key = key_scan(0);
+    //     if (key == KEY0_PRES) {
+    //         LED1_ON();
     //         HAL_TIM_Base_Start_IT(&htim7);
-    //         HAL_Delay(300);
+    //         HAL_Delay(5000);
     //     }
-    //     /* USER CODE END WHILE */
-    //
-    //     /* USER CODE BEGIN 3 */
     // }
 }
 
-void time_pwm()
+void tim_pwm()
 {
+    lcd_init();
+    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer PWM OUT");
+    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED2");
     HAL_TIM_Base_Start_IT(&htim5);
     HAL_TIM_PWM_Start_IT(&htim5, TIM_CHANNEL_2);
+    while (1) {
+
+    }
 }
