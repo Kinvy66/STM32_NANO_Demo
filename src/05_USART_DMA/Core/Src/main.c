@@ -24,8 +24,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "app.h"
 #include "retarget.h"
-#include "common_inc.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -92,8 +92,8 @@ int main(void)
   MX_DMA_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-  RetargetInit(&huart1);
-  app_main();
+    RetargetInit(&huart1);
+    app_main();
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -29,7 +29,8 @@ extern "C" {
 #include "main.h"
 
 /* USER CODE BEGIN Includes */
-
+#define RX_CMD_LEN 5
+extern uint8_t rxBuffer[];
 /* USER CODE END Includes */
 
 extern UART_HandleTypeDef huart1;

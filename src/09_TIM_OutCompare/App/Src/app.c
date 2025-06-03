@@ -2,25 +2,24 @@
 * @file app.c
 * @author Kinvy
 * @email kinvy66@163.com
-* @date: 2025/2/16 21:13
+* @date: 2025/6/2 18:03
 * @description: 
 **/
-
-#include "common_inc.h"
-#include "test.h"
+#include "app.h"
+#include "stdio.h"
+#include "usart.h"
 
 /**
- * @brief Application entry
- * @return
+ * @brief app entry
  */
 void app_main(void)
 {
-    while(1)
-    {
-        // led_test();
-        // key_test();
-        // uart_test();
-        lcd_test();
+    lcd_init();
+    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer Compare OUT");
+    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED2");
+    HAL_TIM_Base_Start_IT(&htim5);
+    HAL_TIM_OC_Start_IT(&htim5, TIM_CHANNEL_2);
+    while (1) {
 
     }
 }

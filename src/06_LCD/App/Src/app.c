@@ -2,26 +2,23 @@
 * @file app.c
 * @author Kinvy
 * @email kinvy66@163.com
-* @date: 2025/2/16 21:13
+* @date: 2025/6/2 18:03
 * @description: 
 **/
-
-#include "common_inc.h"
-#include "test.h"
-#include "lcd.h"
+#include "app.h"
+#include "stdio.h"
+#include "usart.h"
+#include "lcd_test.h"
 
 /**
- * @brief Application entry
- * @return
+ * @brief app entry
  */
 void app_main(void)
 {
-    while(1)
-    {
-        // led_test();
-        // key_test();
-        // uart_test();
-        lcd_test();
-
+    lcd_init();
+    while (1) {
+        LCD_Test_Clear();
+        LCD_Test_Text();
+        HAL_Delay(500);
     }
 }

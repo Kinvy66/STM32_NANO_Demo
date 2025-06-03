@@ -24,6 +24,7 @@
 #include "led.h"
 uint8_t pulseChangeDirection = 1;
 uint16_t pulseWidth = 50;
+
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim5;
@@ -106,10 +107,10 @@ void HAL_TIM_MspPostInit(TIM_HandleTypeDef* timHandle)
     /**TIM5 GPIO Configuration
     PA1     ------> TIM5_CH2
     */
-    GPIO_InitStruct.Pin = LED1_Pin;
+    GPIO_InitStruct.Pin = LED2_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-    HAL_GPIO_Init(LED1_GPIO_Port, &GPIO_InitStruct);
+    HAL_GPIO_Init(LED2_GPIO_Port, &GPIO_InitStruct);
 
   /* USER CODE BEGIN TIM5_MspPostInit 1 */
 
@@ -138,6 +139,7 @@ void HAL_TIM_PWM_MspDeInit(TIM_HandleTypeDef* tim_pwmHandle)
 }
 
 /* USER CODE BEGIN 1 */
+
 void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
   if (htim->Instance != TIM5) {
     return;
@@ -157,4 +159,5 @@ void HAL_TIM_PWM_PulseFinishedCallback(TIM_HandleTypeDef *htim) {
   }
   __HAL_TIM_SET_COMPARE(&htim5, TIM_CHANNEL_2, pulseWidth);
 }
+
 /* USER CODE END 1 */

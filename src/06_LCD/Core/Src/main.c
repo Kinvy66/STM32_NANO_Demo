@@ -24,7 +24,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "common_inc.h"
+#include "app.h"
 #include "retarget.h"
 /* USER CODE END Includes */
 
@@ -92,8 +92,8 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI3_Init();
   /* USER CODE BEGIN 2 */
-  RetargetInit(&huart1);
-  app_main();
+    RetargetInit(&huart1);
+    app_main();
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -21,6 +21,9 @@
 #include "usart.h"
 
 /* USER CODE BEGIN 0 */
+uint8_t proBuffer[10];// = "#S45;\n";
+uint8_t rxBuffer[10];// = "#H12;\n";
+uint8_t rxCompleted = RESET;
 
 /* USER CODE END 0 */
 
@@ -152,4 +155,28 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 /* USER CODE BEGIN 1 */
 
+/**
+ * @brief 串口接收中断
+ * @param huart
+ */
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+  if (huart->Instance == USART1) {
+    rxCompleted = SET;
+    for (uint16_t i = 0; i < RX_CMD_LEN; i++) {
+      proBuffer[i] = rxBuffer[i];
+      __HAL_UART_ENABLE_IT(huart, UART_IT_IDLE);
+    }
+  }
+}
+
+/**
+ * @brief 接收不定长数据
+ * @param huart
+ */
+// void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+//   if (huart->Instance == USART1) {
+//     rxCompleted = SET;
+//     __HAL_UART_ENABLE_IT(huart, UART_IT_IDLE);
+//   }
+// }
 /* USER CODE END 1 */

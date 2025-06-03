@@ -25,7 +25,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "common_inc.h"
+#include "app.h"
 #include "retarget.h"
 /* USER CODE END Includes */
 
@@ -95,8 +95,8 @@ int main(void)
   MX_TIM6_Init();
   MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
-  RetargetInit(&huart1);
-  app_main();
+    RetargetInit(&huart1);
+    app_main();
   /* USER CODE END 2 */
 
   /* Infinite loop */

@@ -2,27 +2,30 @@
 * @file app.c
 * @author Kinvy
 * @email kinvy66@163.com
-* @date: 2025/2/16 21:13
+* @date: 2025/6/2 18:03
 * @description: 
 **/
-
-#include "common_inc.h"
-#include "test.h"
-#include "lcd.h"
+#include "app.h"
+#include "stdio.h"
+#include "usart.h"
+#include "lcd_test.h"
 
 /**
- * @brief Application entry
- * @return
+ * @brief app entry
  */
 void app_main(void)
 {
-    while(1)
-    {
-        // led_test();
-        // key_test();
-        // uart_test();
-        // lcd_test();
-        time_led_test();
-
+    lcd_init();
+    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer LED Demo");
+    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED1 & LED2");
+    HAL_TIM_Base_Start_IT(&htim6);
+    uint8_t key = 0;
+    while (1) {
+        key = key_scan(0);
+        if (key == KEY1_PRES) {
+            LED1_ON();
+            HAL_TIM_Base_Start_IT(&htim7);
+            HAL_Delay(5000);
+        }
     }
 }
