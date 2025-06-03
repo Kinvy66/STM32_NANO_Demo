@@ -93,6 +93,7 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI3_Init();
   MX_TIM5_Init();
+  MX_TIM6_Init();
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart1);
     app_main();

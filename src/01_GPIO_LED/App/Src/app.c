@@ -10,9 +10,8 @@
 void app_main(void)
 {
     while (1) {
-        LED1_ON();
-        HAL_Delay(500);
-        LED1_OFF();
+        LED1_TOGGLE();
+        LED2_ON();
         HAL_Delay(500);
     }
 }

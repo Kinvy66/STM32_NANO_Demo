@@ -23,9 +23,9 @@ void app_main(void)
     while (1) {
         key = key_scan(0);
         if (key == KEY1_PRES) {
-            LED1_ON();
+            LED2_ON();
             HAL_TIM_Base_Start_IT(&htim7);
-            HAL_Delay(5000);
+            // HAL_Delay(5000);
         }
     }
 }

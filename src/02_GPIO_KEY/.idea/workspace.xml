@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -32,340 +32,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="151b86a1-697b-4343-a9c4-8964af45782f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/App/Inc/app.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/stlink.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Inc/app.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Inc/hal_key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BSP/Src/hal_key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stlink.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Inc/app.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/hal_key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/hal_key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/stlink.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_USART/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_USART/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../04_USART_ff/.idea/04_USART.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06_LCD/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06_LCD/Bsp/Inc/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../06_LCD/Bsp/Src/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Inc/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Inc/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Src/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.cproject" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/06_LCD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/runConfigurations/OCD_12_ADC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.mxproject" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/12_ADC.ioc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/App/Src/app.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/App/Src/test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd_display.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd_fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd_spi_169.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/lcd_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/led.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd_display.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd_fonts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd_image.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd_spi_169.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/lcd_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/CMakeLists_template.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/adc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/adc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/gpio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/spi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/syscalls.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/sysmem.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/system_stm32f1xx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/STM32F103RCTX_FLASH.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../12_ADC/stlink.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../keil/MDK-ARM/.vscode/uv4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Template/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Template/00_Template.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/00_Template.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Template/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../00_Template/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/debugServers/ST_LINK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/debugServers/ST_LINK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/01_GPIO_LED.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/01_GPIO_LED.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/App/Inc/common_inc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/App/Inc/test.h" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_USART/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keil/MDK-ARM/JLinkLog.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../keil/MDK-ARM/JLinkSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/App/Src/test.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Inc/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Src/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Src/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/retarget.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/retarget.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Inc/usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Core/Inc/usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/retarget.c" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/retarget.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/syscalls.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/syscalls.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/sysmem.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/sysmem.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Core/Startup/startup_stm32f103rctx.s" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Core/Startup/startup_stm32f103rctx.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../00_Template/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/cmake/gcc-arm-none-eabi.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/debugServers/ST_LINK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/debugServers/ST_LINK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_GPIO_KEY.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/02_GPIO_KEY.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Inc/common_inc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/App/Inc/common_inc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Inc/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/App/Inc/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Src/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/beep.h" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Inc/beep.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/beep.c" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/beep.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/key.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Src/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Src/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/syscalls.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/sysmem.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Startup/startup_stm32f103rctx.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/gcc-arm-none-eabi.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/debugServers/ST_LINK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/03_GPIO_EXTI.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/03_GPIO_EXTI.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Inc/common_inc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Inc/test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/App/Src/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/beep.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Inc/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/beep.c" beforeDir="false" afterPath="$PROJECT_DIR$/../12_ADC/Bsp/Src/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/key.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Bsp/Src/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/syscalls.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/syscalls.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/sysmem.c" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Src/sysmem.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/Core/Startup/startup_stm32f103rctx.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/STM32F103RCTX_FLASH.ld" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/gcc-arm-none-eabi.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/debugServers/ST_LINK.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/04_USART.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/04_USART.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/App/Inc/common_inc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/App/Inc/test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04_USART/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04_USART/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/App/Src/test.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Inc/beep.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Inc/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Bsp/Inc/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Bsp/Inc/led.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Src/beep.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Src/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Bsp/Src/key.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Bsp/Src/led.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Bsp/Src/led.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/CMakePresets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/CMakePresets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/stm32f1xx_hal_msp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/syscalls.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/syscalls.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/sysmem.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/sysmem.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/system_stm32f1xx.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/system_stm32f1xx.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Src/usart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/Core/Src/usart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/Core/Startup/startup_stm32f103rctx.s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/STM32F103RCTX_FLASH.ld" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/cmake/gcc-arm-none-eabi.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../04_USART/startup_stm32f103xe.s" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/startup_stm32f103xe.s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/06_LCD.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/06_LCD.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/App/Inc/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/App/Inc/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/App/Src/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/App/Src/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/debugServers/ST_LINK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/debugServers/ST_LINK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/App/Inc/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/App/Inc/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/App/Src/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/App/Src/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd_spi_169.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd_spi_169.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Inc/test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Inc/test.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Src/lcd_spi_169.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Src/lcd_spi_169.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keil/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/Core/Inc/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvoptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.axf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.axf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.build_log.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.hex" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.htm" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template.htm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template_00_Template.dep" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/00_Template_00_Template.dep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/gpio.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/main.__i" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/main.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/main.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_cortex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_cortex.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_cortex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_cortex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_dma.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_dma.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_dma.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_dma.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_exti.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_exti.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_exti.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_exti.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash_ex.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_flash_ex.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio_ex.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_gpio_ex.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_msp.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_msp.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_msp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_msp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_pwr.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_pwr.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_pwr.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_pwr.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc_ex.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc_ex.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc_ex.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_hal_rcc_ex.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_it.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_it.crf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_it.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/stm32f1xx_it.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/system_stm32f1xx.crf" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/system_stm32f1xx.crf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/system_stm32f1xx.o" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template/system_stm32f1xx.o" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,9 +80,9 @@
     <option name="minorVersion" value="1.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2xxA949dptGwlSbXQEQuc9nc4rw" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -396,35 +91,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "OpenOCD Download & Run.01_GPIO_LED.executor": "Run",
-    "OpenOCD Download & Run.02_GPIO_KEY.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C/C++",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;OpenOCD Download &amp; Run.01_GPIO_LED.executor&quot;: &quot;Run&quot;,
+    &quot;OpenOCD Download &amp; Run.02_GPIO_KEY.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C/C++&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.02_GPIO_KEY">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="02_GPIO_KEY" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02_GPIO_KEY" TARGET_NAME="02_GPIO_KEY" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02_GPIO_KEY" RUN_TARGET_NAME="02_GPIO_KEY">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -457,6 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748869196056</updated>
       <workItem from="1748869197127" duration="4585000" />
+      <workItem from="1748958201326" duration="442000" />
     </task>
     <servers />
   </component>

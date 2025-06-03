@@ -2,7 +2,7 @@ Dependencies for Project '00_Template', Target '00_Template': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f103xe.s)(0x68280AB1)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_00_Template-IC:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xe.lst --xref -o 00_template\startup_stm32f103xe.o --depend 00_template\startup_stm32f103xe.d)
 F (../Core/Src/main.c)(0x68280AB0)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_00_Template-IC:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o 00_template\main.o --omf_browse 00_template\main.crf --depend 00_template\main.d)
-I (../Core/Inc/main.h)(0x68280AB0)
+I (../Core/Inc/main.h)(0x683EF5C3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68280AB0)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68280AB0)
@@ -30,7 +30,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68280AB0)
 I (../Core/Inc/gpio.h)(0x68280AB0)
 F (../Core/Src/gpio.c)(0x68280AB0)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_00_Template-IC:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o 00_template\gpio.o --omf_browse 00_template\gpio.crf --depend 00_template\gpio.d)
 I (../Core/Inc/gpio.h)(0x68280AB0)
-I (../Core/Inc/main.h)(0x68280AB0)
+I (../Core/Inc/main.h)(0x683EF5C3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68280AB0)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68280AB0)
@@ -56,7 +56,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68280AB0)
 F (../Core/Src/stm32f1xx_it.c)(0x68280AB0)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_00_Template-IC:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o 00_template\stm32f1xx_it.o --omf_browse 00_template\stm32f1xx_it.crf --depend 00_template\stm32f1xx_it.d)
-I (../Core/Inc/main.h)(0x68280AB0)
+I (../Core/Inc/main.h)(0x683EF5C3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68280AB0)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68280AB0)
@@ -83,7 +83,7 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68280AB0)
 I (../Core/Inc/stm32f1xx_it.h)(0x68280AB0)
 F (../Core/Src/stm32f1xx_hal_msp.c)(0x68280AB0)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include-I.\RTE\_00_Template-IC:\Keil_v5\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Keil_v5\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE-o 00_template\stm32f1xx_hal_msp.o --omf_browse 00_template\stm32f1xx_hal_msp.crf --depend 00_template\stm32f1xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x68280AB0)
+I (../Core/Inc/main.h)(0x683EF5C3)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68280AB0)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68280AB0)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68280AB0)

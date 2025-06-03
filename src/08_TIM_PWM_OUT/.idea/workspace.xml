@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader">{
-  &quot;useNewFormat&quot;: true
-}</component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -14,8 +14,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="01_GPIO_LED" targetName="01_GPIO_LED" />
-      <config projectName="01_GPIO_LED" targetName="STM32_Drivers" />
+      <config projectName="08_TIM_PWM_OUT" targetName="STM32_Drivers" />
+      <config projectName="08_TIM_PWM_OUT" targetName="08_TIM_PWM_OUT" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -31,20 +31,44 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="667b3bc5-49b8-442f-bf18-389ad82466c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
+    <list default="true" id="6581e37f-ca03-44ee-9d18-2160c99c005c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../03_GPIO_EXTI/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../04_USART/.idea/debugServers/SEGGER_J_Link.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_LCD/.idea/deployment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../keil/MDK-ARM/JLinkLog.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../keil/MDK-ARM/JLinkSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSP/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/BSP/Inc/led.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Inc/led.h" beforeDir="false" afterPath="$PROJECT_DIR$/../01_GPIO_LED/BSP/Inc/led.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02_GPIO_KEY/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04_USART/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../04_USART/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../04_USART/App/Src/app.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../05_USART_DMA/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06_LCD/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/Core/Src/spi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/07_TIM_LED.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/07_TIM_LED.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd_spi_169.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd_spi_169.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/spi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_TIM_PWM_OUT.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/08_TIM_PWM_OUT.ioc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/App/Inc/app.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bsp/Inc/hal_key.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bsp/Inc/hal_key.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bsp/Src/lcd_spi_169.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bsp/Src/lcd_spi_169.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/stm32f1xx_it.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/spi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/stm32f1xx_it.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/Core/Inc/main.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvoptx" afterDir="false" />
@@ -80,54 +104,53 @@
     <option name="minorVersion" value="1.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2xwnr87hMo6w5Ejhyydx2C3wCwQ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2y0EgEFKxufUBL28O27ZzAd0aDt" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;CMake Application.01_GPIO_LED.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;OpenOCD Download &amp; Run.01_GPIO_LED.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.cidr.cpp.execution.gdbserver.debugtargets.NamedDebugTargetConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "OpenOCD Download & Run.08_TIM_PWM_OUT.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.cidr.embedded.config",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="OpenOCD Download &amp; Run.01_GPIO_LED">
-    <configuration name="01_GPIO_LED" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_GPIO_LED" TARGET_NAME="01_GPIO_LED" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="01_GPIO_LED" RUN_TARGET_NAME="01_GPIO_LED">
+}]]></component>
+  <component name="RunManager" selected="OpenOCD Download &amp; Run.08_TIM_PWM_OUT">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="08_TIM_PWM_OUT" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="08_TIM_PWM_OUT" TARGET_NAME="08_TIM_PWM_OUT" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="08_TIM_PWM_OUT" RUN_TARGET_NAME="08_TIM_PWM_OUT">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="STM32_Drivers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_GPIO_LED" TARGET_NAME="STM32_Drivers" CONFIG_NAME="Debug">
+    <configuration name="STM32_Drivers" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="08_TIM_PWM_OUT" TARGET_NAME="STM32_Drivers" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="01_GPIO_LED" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="01_GPIO_LED" TARGET_NAME="01_GPIO_LED" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="01_GPIO_LED" RUN_TARGET_NAME="01_GPIO_LED">
-      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\Rep\EE\STM32_NANO_Demo\src\01_GPIO_LED\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+    <configuration name="08_TIM_PWM_OUT" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="08_TIM_PWM_OUT" TARGET_NAME="08_TIM_PWM_OUT" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="08_TIM_PWM_OUT" RUN_TARGET_NAME="08_TIM_PWM_OUT">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="E:\Rep\EE\STM32_NANO_Demo\src\08_TIM_PWM_OUT\stlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
         <debugger kind="GDB">C:\Env\OpenOCD-20240916-0.12.0\bin\openocd.exe</debugger>
       </openocd>
       <method v="2">
@@ -135,21 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.01_GPIO_LED" />
+      <item itemvalue="CMake Application.08_TIM_PWM_OUT" />
       <item itemvalue="CMake Application.STM32_Drivers" />
-      <item itemvalue="OpenOCD Download &amp; Run.01_GPIO_LED" />
+      <item itemvalue="OpenOCD Download &amp; Run.08_TIM_PWM_OUT" />
     </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="667b3bc5-49b8-442f-bf18-389ad82466c9" name="Changes" comment="" />
-      <created>1748858199719</created>
+      <changelist id="6581e37f-ca03-44ee-9d18-2160c99c005c" name="Changes" comment="" />
+      <created>1748963199589</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1748858199719</updated>
-      <workItem from="1748858201309" duration="4063000" />
-      <workItem from="1748956452603" duration="1195000" />
-      <workItem from="1748957781744" duration="859000" />
+      <updated>1748963199589</updated>
+      <workItem from="1748963200671" duration="3418000" />
     </task>
     <servers />
   </component>

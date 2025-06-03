@@ -10,7 +10,6 @@
 #define __APP_H
 #include "main.h"
 #include "led.h"
-#include "key.h"
 #include "lcd.h"
 #include "tim.h"
 
