@@ -129,8 +129,8 @@ void LCD_Test_Variable (void)
     LCD_DisplayText(0,130,"填充0:");
 
     LCD_SetColor(LIGHT_RED);					// 设置画笔	，亮红色
-    LCD_DisplayText(0,170,"正小数:");
-    LCD_DisplayText(0,200,"负小数:");
+    // LCD_DisplayText(0,170,"正小数:");
+    // LCD_DisplayText(0,200,"负小数:");
 
     for(i=0;i<100;i++)
     {

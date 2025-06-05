@@ -37,133 +37,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb06ed1e-a834-4002-8a9f-9cb9eba15989" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../10_TIM_Encoder/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../06_LCD/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../06_LCD/Bsp/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/Bsp/Src/lcd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/Bsp/Src/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/08_TIM_PWM_OUT.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/08_TIM_PWM_OUT.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_TIM_OutCompare.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/09_TIM_OutCompare.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bsp/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/spi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/10_TIM_Encoder.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/10_TIM_Encoder.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/App/Inc/app.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Inc/hal_key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Inc/hal_key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Bsp/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Inc/tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../10_TIM_Encoder/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../10_TIM_Encoder/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Inc/lcd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Src/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Src/lcd_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Bsp/Src/lcd_test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/cmake/gcc-arm-none-eabi.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,6 +120,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2xytvi4bO5XxEASBEmDtv0IOQY4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -255,7 +190,7 @@
       <workItem from="1748922375817" duration="3052000" />
       <workItem from="1749003843167" duration="5658000" />
       <workItem from="1749016910346" duration="485000" />
-      <workItem from="1749124009712" duration="1877000" />
+      <workItem from="1749124009712" duration="2631000" />
     </task>
     <servers />
   </component>

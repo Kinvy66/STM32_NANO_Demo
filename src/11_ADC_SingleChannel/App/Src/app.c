@@ -9,6 +9,7 @@
 #include "stdio.h"
 #include "usart.h"
 #include "adc.h"
+#include "lcd_test.h"
 
 /**
  * @brief app entry
@@ -16,10 +17,10 @@
 void app_main(void)
 {
     lcd_init();
-    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "ADC SingleChannel");
-    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: VR1");
-    lcd_show_str(10, 10 + 20*2, ASCII_Font20, LCD_RED, "ADC Value: ");
-    lcd_show_str(10, 10 + 20*3, ASCII_Font20, LCD_RED, "Voltage:  ");
+    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "ADC SingleChannel");
+    lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, "HW: VR1");
+    lcd_show_str(10, 10 + 20*2, &ASCII_Font20, LCD_RED, "ADC Value: ");
+    lcd_show_str(10, 10 + 20*3, &ASCII_Font20, LCD_RED, "Voltage:  ");
     char send_buf[40] = {0};
     uint16_t result = 0;
     float voltage = 0.0f;
@@ -34,9 +35,12 @@ void app_main(void)
         // 计算电压值
         voltage = result * 3.3f / 4095;
         // 将变量打印为字符串
-        sprintf(send_buf, "ADC value: %d, Voltage: %.3f V\r\n", result, voltage);
-        printf("%s", send_buf);
+        // sprintf(send_buf, "ADC value: %d, Voltage: %.3f V\r\n", result, voltage);
+        // printf("%s", send_buf);
+        lcd_show_num(10+100, 10 + 20*2, LCD_RED, Fill_Space , result, 4);
+        char temp[10];
+        sprintf(temp, "%.3f V", voltage);
+        lcd_show_str(10 + 90, 10 + 20*3, &ASCII_Font20, LCD_RED, temp);
         HAL_Delay(500);
-        // TODO: lcd 显示数据
     }
 }

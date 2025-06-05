@@ -58,7 +58,7 @@ void app_main(void)
                 htim3.Instance->CNT = cnt_encoder;
             }
         }
-        lcd_show_num(10+70, 10 + 20*3, LCD_RED,Fill_Space,  cnt_encoder, 5);
+        lcd_show_num(10+60, 10 + 20*3, LCD_RED,Fill_Space,  cnt_encoder, 3);
         HAL_Delay(10);
     }
 }
