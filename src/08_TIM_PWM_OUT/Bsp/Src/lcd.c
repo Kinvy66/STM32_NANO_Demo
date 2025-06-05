@@ -22,8 +22,9 @@ void lcd_init()
 void lcd_test()
 {
     LCD_Init();
-    LCD_Clear();
-    LCD_Test_Text();
+    // LCD_Clear();
+    LCD_Test_Variable();
+    // LCD_Test_Text();
 }
 
 /**
@@ -34,12 +35,12 @@ void lcd_test()
  * @param Color
  * @param str
  */
-void lcd_show_str(uint16_t x, uint16_t y, pFONT Asciifonts, uint32_t Color, char* str)
+void lcd_show_str(uint16_t x, uint16_t y, pFONT* Asciifonts, uint32_t Color, char* str)
 {
     LCD_SetBackColor(LCD_WHITE);
+    LCD_SetAsciiFont(Asciifonts);
     LCD_SetColor(Color);
-    LCD_SetAsciiFont(&Asciifonts);
-    LCD_DisplayString(x, y,str);
+    LCD_DisplayText(x, y,str);
 }
 
 /**
@@ -51,11 +52,10 @@ void lcd_show_str(uint16_t x, uint16_t y, pFONT Asciifonts, uint32_t Color, char
  * @param fill
  * @param number
  */
-void lcd_show_num(uint16_t x, uint16_t y, pFONT Asciifonts,
+void lcd_show_num(uint16_t x, uint16_t y,
                   uint32_t Color, uint8_t fill, int32_t number, uint8_t len)
 {
     LCD_SetColor(Color);
-    LCD_SetAsciiFont(&Asciifonts);
     LCD_ShowNumMode(fill);
     LCD_DisplayNumber(x, y, number, len);
 }

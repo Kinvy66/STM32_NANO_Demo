@@ -16,8 +16,8 @@
 void app_main(void)
 {
     lcd_init();
-    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer LED Demo");
-    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED1 & LED2");
+    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "Timer LED Demo");
+    lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, "HW: LED1 & LED2");
     HAL_TIM_Base_Start_IT(&htim6);
     uint8_t key = 0;
     while (1) {

@@ -15,11 +15,13 @@
 void app_main(void)
 {
     lcd_init();
-    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer OUT Compare");
-    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED2");
+    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "Timer OUT Compare");
+    lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, "HW: LED2");
+    lcd_show_str(10, 10 + 2*20, &ASCII_Font20, LCD_RED, "PWM: ");
     HAL_TIM_Base_Start_IT(&htim5);
     HAL_TIM_OC_Start_IT(&htim5, TIM_CHANNEL_2);
     while (1) {
-
+        uint32_t pulseWidth = __HAL_TIM_GET_COMPARE(&htim5, TIM_CHANNEL_2);
+        lcd_show_num(50, 10 + 20*2, LCD_RED,Fill_Space,  pulseWidth, 3);
     }
 }

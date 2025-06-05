@@ -69,22 +69,27 @@ void app_main(void)
 {
 
     lcd_init();
-    lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "Timer PWM OUT");
-    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: LED2");
-    lcd_show_str(10, 10 + 20*2, ASCII_Font20, LCD_RED, "Model: ");
-    lcd_show_str(10, 10 + 20*3, ASCII_Font20, LCD_RED, "PWM: ");
+    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "Timer PWM OUT");
+
+    lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, "HW: LED2");
+    lcd_show_str(10, 10 + 20*2, &ASCII_Font20, LCD_RED, "Model: ");
+    lcd_show_str(10, 10 + 20*3, &ASCII_Font20, LCD_RED, "PWM: ");
     HAL_TIM_Base_Start_IT(&htim5);
     HAL_TIM_Base_Start_IT(&htim6);
     HAL_TIM_PWM_Start_IT(&htim5, TIM_CHANNEL_2);
 
     keyParaInit(keys);
+
     while (1) {
         if (model == 0) {
-            lcd_show_str(80, 10 + 20*2, ASCII_Font20, LCD_RED, "Auto");
+            lcd_show_str(80, 10 + 20*2, &ASCII_Font20, LCD_RED, "Auto");
         } else if (model == 1) {
-            lcd_show_str(80, 10 + 20*2, ASCII_Font20, LCD_RED, "Manu");
-            pulseWidth = __HAL_TIM_GET_COMPARE(&htim5, TIM_CHANNEL_2);
-            lcd_show_str(50, 10 + 20*3, ASCII_Font20, LCD_RED, "Manu");
+            lcd_show_str(80, 10 + 20*2, &ASCII_Font20, LCD_RED, "Manu");
         }
+        pulseWidth = __HAL_TIM_GET_COMPARE(&htim5, TIM_CHANNEL_2);
+        printf("pulseWidth:%d\r\n", pulseWidth);
+        lcd_show_num(50, 10 + 20*3, LCD_RED,Fill_Space,  pulseWidth, 3);
     }
+    // lcd_test();
+
 }

@@ -20,10 +20,10 @@ void lcd_test()
     LCD_Test_Text();
 }
 
-void lcd_show_str(uint16_t x, uint16_t y, pFONT Asciifonts, uint32_t Color, char* str)
+void lcd_show_str(uint16_t x, uint16_t y, pFONT* Asciifonts, uint32_t Color, char* str)
 {
     LCD_SetBackColor(LCD_WHITE);
     LCD_SetColor(Color);
-    LCD_SetAsciiFont(&Asciifonts);
+    LCD_SetAsciiFont(Asciifonts);
     LCD_DisplayString(x, y,str);
 }

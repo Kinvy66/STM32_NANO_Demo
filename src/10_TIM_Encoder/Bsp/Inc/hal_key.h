@@ -36,11 +36,7 @@
 //Key Registry
 typedef enum
 {
-    KEY1,                     // KEY Name:KEY1
-    KEY2,                     // KEY Name:KEY2
-    KEY3,                     // KEY Name:KEY3
-    KEY4,                     // KEY Name:KEY4
-    TEST_KEY,
+    ENC_KEY,                    // KEY Name:KEY1
     /*
     ...
     Users can add keys as required

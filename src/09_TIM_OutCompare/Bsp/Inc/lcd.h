@@ -10,8 +10,10 @@
 #define _LCD_H
 #include "lcd_spi_169.h"
 
-void lcd_init();
-void lcd_test();
-void lcd_show_str(uint16_t x, uint16_t y, pFONT Asciifonts, uint32_t Color, char* str);
+void lcd_init(void);
+void lcd_test(void);
+void lcd_show_str(uint16_t x, uint16_t y, pFONT* Asciifonts, uint32_t Color, char* str);
+void lcd_show_num(uint16_t x, uint16_t y, uint32_t Color,
+                  uint8_t fill, int32_t number,  uint8_t len);
 
 #endif //_LCD_H

@@ -12,6 +12,6 @@
 
 void lcd_init();
 void lcd_test();
-void lcd_show_str(uint16_t x, uint16_t y, pFONT Asciifonts, uint32_t Color, char* str);
+void lcd_show_str(uint16_t x, uint16_t y, pFONT* Asciifonts, uint32_t Color, char* str);
 
 #endif //_LCD_H
