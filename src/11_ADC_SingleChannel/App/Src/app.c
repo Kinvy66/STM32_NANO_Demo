@@ -17,7 +17,9 @@ void app_main(void)
 {
     lcd_init();
     lcd_show_str(10, 10, ASCII_Font20, LCD_RED, "ADC SingleChannel");
-    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: ");
+    lcd_show_str(10, 10 + 20, ASCII_Font20, LCD_RED, "HW: VR1");
+    lcd_show_str(10, 10 + 20*2, ASCII_Font20, LCD_RED, "ADC Value: ");
+    lcd_show_str(10, 10 + 20*3, ASCII_Font20, LCD_RED, "Voltage:  ");
     char send_buf[40] = {0};
     uint16_t result = 0;
     float voltage = 0.0f;

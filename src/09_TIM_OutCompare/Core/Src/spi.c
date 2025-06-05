@@ -82,7 +82,8 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* spiHandle)
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* USER CODE BEGIN SPI3_MspInit 1 */
-
+    __HAL_SPI_ENABLE(&hspi3);
+    SPI_1LINE_TX(&hspi3);
   /* USER CODE END SPI3_MspInit 1 */
   }
 }
