@@ -37,19 +37,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c70a0bb9-6e9c-49ec-844e-26211537cf50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/调试问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/调试问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/hal_key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/hal_key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/lcd.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/w25xx_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/w25xx_flash.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/spi.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749124572999</updated>
       <workItem from="1749124574063" duration="4808000" />
-      <workItem from="1749179178579" duration="771000" />
+      <workItem from="1749179178579" duration="847000" />
     </task>
     <servers />
   </component>

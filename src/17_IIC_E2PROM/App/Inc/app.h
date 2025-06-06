@@ -10,9 +10,7 @@
 #define __APP_H
 #include "main.h"
 #include "led.h"
-#include "key.h"
 #include "lcd.h"
-// #include "w25xx_flash.h"
 #include "24cxx.h"
 
 void app_main(void);
