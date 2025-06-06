@@ -21,7 +21,7 @@
 #include "spi.h"
 
 /* USER CODE BEGIN 0 */
-
+#include "w25xx_flash.h"
 /* USER CODE END 0 */
 
 SPI_HandleTypeDef hspi2;
@@ -192,5 +192,25 @@ void HAL_SPI_MspDeInit(SPI_HandleTypeDef* spiHandle)
 }
 
 /* USER CODE BEGIN 1 */
+
+void HAL_SPI_TxCpltCallback(SPI_HandleTypeDef *hspi) {
+  __Deselect_Flash();	//CS=1
+  Flash_Wait_Busy();
+  // lcd_show_str(10, 12*30 + 10, 24, "DMA Writing complete.", RED);
+}
+
+
+void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef *hspi) {
+  __Deselect_Flash();	//CS=1
+  Flash_Wait_Busy();
+  // lcd_show_str(10, 11*30 + 10, 24, "DMA reading complete.", RED);
+  //
+  // uint8_t tempStr[50];
+  // sprintf(tempStr, "Page3[26] = %d, [205] = %d",
+  //     bufPageWrite[26], bufPageWrite[205]);
+  // lcd_show_str(10, 12*30 + 10, 24, tempStr, RED);
+
+}
+
 
 /* USER CODE END 1 */

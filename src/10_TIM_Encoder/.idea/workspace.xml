@@ -3,9 +3,14 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeProjectFlavorService">
     <option name="flavorId" value="CMakePlainProjectFlavor" />
   </component>
@@ -32,10 +37,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c70a0bb9-6e9c-49ec-844e-26211537cf50" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../09_TIM_OutCompare/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../09_TIM_OutCompare/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../doc/调试问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/调试问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/hal_key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/hal_key.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/lcd.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/lcd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/w25xx_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/w25xx_flash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/spi.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +69,9 @@
     <option name="minorVersion" value="1.1" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2y5VlZkZxzxwgbyGZA2ww6zJzXL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,6 +81,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "OpenOCD Download & Run.10_TIM_Encoder.executor": "Run",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
@@ -86,11 +101,6 @@
   }
 }]]></component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.10_TIM_Encoder">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="10_TIM_Encoder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="10_TIM_Encoder" TARGET_NAME="10_TIM_Encoder" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="10_TIM_Encoder" RUN_TARGET_NAME="10_TIM_Encoder">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -123,6 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749124572999</updated>
       <workItem from="1749124574063" duration="4808000" />
+      <workItem from="1749179178579" duration="771000" />
     </task>
     <servers />
   </component>

@@ -112,4 +112,11 @@ void Flash_WriteInPage(uint32_t globalAddr, uint8_t *pBuffer,
 void Flash_WriteSector(uint32_t globalAddr, const uint8_t *pBuffer,
 		uint16_t byteCount);
 
+//=========6. 测试函数=============
+uint16_t Flash_TestReadStatus();
+void Flash_TestWrite();
+void Flash_TestRead();
+void Flash_TestWriteDMA();
+void Flash_TestReadDMA();
+
 #endif //__W25XX_FLASH_H

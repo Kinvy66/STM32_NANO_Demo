@@ -40,7 +40,6 @@ typedef enum
     KEY2,                     // KEY Name:KEY2
     KEY3,                     // KEY Name:KEY3
     KEY4,                     // KEY Name:KEY4
-    TEST_KEY,
     /*
     ...
     Users can add keys as required
