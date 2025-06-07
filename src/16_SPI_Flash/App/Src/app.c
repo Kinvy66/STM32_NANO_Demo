@@ -7,32 +7,32 @@
 **/
 #include "app.h"
 #include "stdio.h"
-#include "hal_key.h"
+#include "tim.h"
 
 uint16_t dev_id = 0;
-void key1ShortPress(void)
+void key1_short_press(void)
 {
     if (dev_id)
     {
-        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Erasing chip, about 30 sec...");
+        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Erasing chip,about 30s.");
         Flash_EraseChip();
-        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Chip is erased.              ");
+        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Chip is erased.        ");
     }
 }
 
-void key2ShortPress(void)
+void key2_short_press(void)
 {
     if (dev_id)
     {
-        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Erasing Block 0(256 pages)...");
+        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Erasing Block 0.       ");
         uint32_t globalAddr = 0;
         Flash_EraseBlock64K(globalAddr);
-        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Block 0 is erased.           ");
+        lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Block 0 is erased.     ");
     }
 
 }
 
-void key3ShortPress(void)
+void key3_short_press(void)
 {
     if (dev_id)
     {
@@ -40,7 +40,7 @@ void key3ShortPress(void)
     }
 }
 
-void key4ShortPress(void)
+void key4_short_press(void)
 {
     if (dev_id)
     {
@@ -49,43 +49,13 @@ void key4ShortPress(void)
 
 }
 
-keyCategory_t keys[KEY_NUM] = {
-    [KEY1] = {
-        .fsm.keyGpio.keyPort = KEY1_GPIO_Port,
-        .fsm.keyGpio.keyPin = KEY1_Pin,
-        .fsm.keyShield = ENABLE,
-        .fsm.keyDownLevel = Bit_RESET,
-        .func.ShortPressCb = key1ShortPress,
-    },
-    [KEY2] = {
-        .fsm.keyGpio.keyPort = KEY2_GPIO_Port,
-        .fsm.keyGpio.keyPin = KEY2_Pin,
-        .fsm.keyShield = ENABLE,
-        .fsm.keyDownLevel = Bit_RESET,
-        .func.ShortPressCb = key2ShortPress,
-    },
-    [KEY3] = {
-        .fsm.keyGpio.keyPort = KEY3_GPIO_Port,
-        .fsm.keyGpio.keyPin = KEY3_Pin,
-        .fsm.keyShield = ENABLE,
-        .fsm.keyDownLevel = Bit_RESET,
-        .func.ShortPressCb = key3ShortPress,
-    },
-    [KEY4] = {
-        .fsm.keyGpio.keyPort = WK_UP_GPIO_Port,
-        .fsm.keyGpio.keyPin = WK_UP_Pin,
-        .fsm.keyShield = ENABLE,
-        .fsm.keyDownLevel = Bit_SET,
-        .func.ShortPressCb = key4ShortPress,
-    },
-};
-
 /**
  * @brief app entry
  */
 void app_main(void)
 {
     lcd_init();
+    key_init();
     lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "SPI Flash");
     lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, "K1 Erase Chip");
     lcd_show_str(10, 10 + 20*2, &ASCII_Font20, LCD_RED, "K2 Erase Block 0");

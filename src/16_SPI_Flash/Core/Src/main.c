@@ -19,6 +19,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "spi.h"
+#include "tim.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -92,6 +93,8 @@ int main(void)
   MX_USART1_UART_Init();
   MX_SPI3_Init();
   MX_SPI2_Init();
+  MX_TIM6_Init();
+  MX_TIM7_Init();
   /* USER CODE BEGIN 2 */
     RetargetInit(&huart1);
     app_main();

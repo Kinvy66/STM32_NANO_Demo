@@ -4,7 +4,6 @@
  * 修改日期：2019-06-05
  */
 
-
 #include "w25xx_flash.h"
 #include "stdio.h"
 #include "string.h"
@@ -462,30 +461,8 @@ void Flash_TestWrite() {
 	memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
 	uint8_t bufStr1[30] = "Hello from beginning";
 	Flash_WriteInPage(memAddress, bufStr1, strlen(bufStr1) + 1);
-	// lcd_show_str(10, 11*30 + 10, 24, "Write in Page0:0", RED);
-    lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Write in Page0:0");
-
-	// lcd_show_str(10, 12*30 + 10, 24, bufStr1, RED);
+    lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Write in Page0:0       ");
     lcd_show_str(10, 10 + 20*7, &ASCII_Font20, LCD_RED, bufStr1);
-
-
-	// uint8_t bufStr2[30] = "Hello in page";
-	// Flash_WriteInPage(memAddress + 100, bufStr2, strlen(bufStr2) + 1);
-	// // lcd_show_str(10, 13*30 + 10, 24, "Write in Page0:100", RED);
-	// // lcd_show_str(10, 14*30 + 10, 24, bufStr2, RED);
- //    lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Write in Page0:100");
- //    lcd_show_str(10, 10 + 20*7, &ASCII_Font20, LCD_RED, bufStr2);
- //
-	// uint8_t bufPage[FLASH_PAGE_SIZE];
-	// for (uint16_t i = 0; i < FLASH_PAGE_SIZE; ++i) {
-	// 	bufPage[i] = i;
-	// }
-	// SubPageNo = 1;
-	// memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
-	// Flash_WriteInPage(memAddress, bufPage, FLASH_PAGE_SIZE);
-	// // lcd_show_str(10, 15*30 + 10, 24, "Write 0~255 in Page1", RED);
- //    lcd_show_str(10, 10 + 20*6, &ASCII_Font20, LCD_RED, "Write in Page0:100");
-
 }
 
 void Flash_TestRead() {
@@ -495,23 +472,6 @@ void Flash_TestRead() {
 	uint32_t memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
 	uint8_t bufStr[50];
 	Flash_ReadBytes(memAddress, bufStr, 50);
-	lcd_show_str(10, 10 + 20*8, &ASCII_Font20, LCD_RED, "Read in Page0:0");
+	lcd_show_str(10, 10 + 20*8, &ASCII_Font20, LCD_RED, "Read in Page0:0        ");
     lcd_show_str(10, 10 + 20*9, &ASCII_Font20, LCD_RED, bufStr);
-
-	// lcd_show_str(10, 11*30 + 10, 24, "Read in Page0:0 ", RED);
-	// lcd_show_str(10, 12*30 + 10, 24, bufStr, RED);
-
-	// Flash_ReadBytes(memAddress + 100, bufStr, 50);
-	// // lcd_show_str(10, 13*30 + 10, 24, "Read in Page0:100 ", RED);
-	// // lcd_show_str(10, 14*30 + 10, 24, bufStr, RED);
-	//
-	// SubPageNo = 1;
-	// memAddress = Flash_Addr_byBlockSectorPage(BlockNo, SubSectorNo, SubPageNo);
-	// uint8_t randData12 = Flash_ReadOneByte(memAddress + 12);
-	// uint8_t randData136 = Flash_ReadOneByte(memAddress + 136);
-	// uint8_t randData210 = Flash_ReadOneByte(memAddress + 210);
-	// uint8_t tempStrRandData[30];
-	// sprintf(tempStrRandData, "Page1[12]=%d,[136]=%d,[210]=%d",
-	// 		randData12, randData136, randData210);
-	// lcd_show_str(10, 15*30 + 10, 24, tempStrRandData, RED);
 }

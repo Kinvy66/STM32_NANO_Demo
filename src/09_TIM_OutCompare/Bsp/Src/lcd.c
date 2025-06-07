@@ -28,6 +28,8 @@ void lcd_show_str(uint16_t x, uint16_t y, pFONT* Asciifonts, uint32_t Color, cha
     LCD_DisplayString(x, y,str);
 }
 
+
+
 /**
  * @brief
  * @param x

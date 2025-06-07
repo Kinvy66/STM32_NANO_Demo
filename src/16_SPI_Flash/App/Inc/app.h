@@ -11,6 +11,7 @@
 #include "main.h"
 #include "led.h"
 #include "lcd.h"
+#include "key.h"
 #include "w25xx_flash.h"
 
 void app_main(void);
