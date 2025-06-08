@@ -31,7 +31,8 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+uint32_t DWT_Delay_Init(void);
+void DWT_Delay_us(volatile uint32_t microseconds);
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -83,7 +84,7 @@ void Error_Handler(void);
 #define LCD_BL_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
-
+#define HAL_Delay_us(us)   DWT_Delay_us(us)
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus

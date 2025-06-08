@@ -37,194 +37,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb06ed1e-a834-4002-8a9f-9cb9eba15989" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Inc/tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/tim.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../16_SPI_Flash/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/deployment.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Inc/i2c_soft.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Src/i2c_soft.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/19_IIC_AHT20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.mxproject" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/19_IIC_AHT20.ioc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/App/Inc/app.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/App/Src/app.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/24cxx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/aht20.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/hal_key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/i2c_soft.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/key.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/lcd.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/lcd_fonts.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/lcd_image.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/lcd_spi_169.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/lcd_test.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Inc/led.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/24cxx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/aht20.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/hal_key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/i2c_soft.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/key.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/lcd.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/lcd_fonts.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/lcd_image.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/lcd_spi_169.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/lcd_test.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/led.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/CMakePresets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/retarget.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/usart.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/gpio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/retarget.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/spi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/stm32f1xx_hal_msp.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/syscalls.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/sysmem.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/system_stm32f1xx.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/tim.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Src/usart.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/STM32F103XX_FLASH.ld" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/startup_stm32f103xe.s" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../19_IIC_AHT20/stlink.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../PinMap/PinMap.ioc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RGB/RGB.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../doc/调试问题.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../doc/调试问题.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07_TIM_LED/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../08_TIM_PWM_OUT/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bsp/Src/lcd.c" beforeDir="false" afterPath="$PROJECT_DIR$/Bsp/Src/lcd.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../11_ADC_SingleChannel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../19_IIC_AHT20/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/.mxproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/16_SPI_Flash.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/16_SPI_Flash.ioc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Inc/app.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Inc/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/key.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/key.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd_spi_169.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/lcd_spi_169.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Bsp/Src/w25xx_flash.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Inc/stm32f1xx_it.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/Core/Src/stm32f1xx_it.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16_SPI_Flash/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../16_SPI_Flash/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/dictionaries/project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/.idea/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/.mxproject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/17_IIC_E2PROM.ioc" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/17_IIC_E2PROM.ioc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/App/Src/app.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Inc/24cxx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Inc/24cxx.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Src/24cxx.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Bsp/Src/24cxx.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/i2c.h" beforeDir="false" afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Core/Inc/spi.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/stm32f1xx_hal_conf.h" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/stm32f1xx_hal_conf.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/stm32f1xx_it.h" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/stm32f1xx_it.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Inc/tim.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/gpio.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/gpio.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/i2c.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/stm32f1xx_it.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/stm32f1xx_it.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/Core/Src/tim.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_i2c.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17_IIC_E2PROM/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../17_IIC_E2PROM/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19_IIC_AHT20/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" beforeDir="false" afterPath="$PROJECT_DIR$/../keil/MDK-ARM/00_Template.uvguix.Kinvy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +147,7 @@
       <workItem from="1749016910346" duration="485000" />
       <workItem from="1749124009712" duration="2631000" />
       <workItem from="1749274408720" duration="404000" />
-      <workItem from="1749275074854" duration="3956000" />
+      <workItem from="1749275074854" duration="4553000" />
     </task>
     <servers />
   </component>
