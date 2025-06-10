@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/02_GPIO_KEY.iml" filepath="$PROJECT_DIR$/.idea/02_GPIO_KEY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/02_GPIO_KEY2.iml" filepath="$PROJECT_DIR$/.idea/02_GPIO_KEY2.iml" />
     </modules>
   </component>
 </project>

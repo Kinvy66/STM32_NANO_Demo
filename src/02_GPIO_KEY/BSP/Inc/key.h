@@ -6,8 +6,8 @@
 * @description: 
 **/
 
-#ifndef __KEY_KEY_H
-#define __KEY_KEY_H
+#ifndef __KEY_H
+#define __KEY_H
 #include "main.h"
 
 #define KEY1        HAL_GPIO_ReadPin(KEY1_GPIO_Port,KEY1_Pin)  //KEY0按键PC8
@@ -22,4 +22,4 @@
 
 uint8_t key_scan(uint8_t mode);
 
-#endif //__KEY_KEY_H
+#endif //__KEY_H
