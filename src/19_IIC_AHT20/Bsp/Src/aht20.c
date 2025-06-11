@@ -6,7 +6,7 @@
 * @description: 
 **/
 #include "aht20.h"
-
+#include "stdio.h"
 #define AHT20_ADDRESS 0x70
 
 void AHT20_Init() {

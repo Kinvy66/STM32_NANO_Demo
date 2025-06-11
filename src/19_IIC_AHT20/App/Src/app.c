@@ -24,10 +24,14 @@ void app_main(void)
 
     while (1) {
         AHT20_Read(&temperature, &humidity);
-        // sprintf(message, "temp: %.1f C, hum: %.1f %%", temperature, humidity);
-        sprintf(message, "soft温度: %.1f ℃，湿度: %.1f %%\r\n", temperature, humidity);
+        sprintf(message, "Temperature: %.1f 'C", temperature);
+        lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, message);
         printf(message);
-        // lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, message);
+        
+        sprintf(message, "Humidity: %.1f %%", humidity);
+        lcd_show_str(10, 10 + 20*2, &ASCII_Font20, LCD_RED, message);
+        // sprintf(message, "soft温度: %.1f ℃，湿度: %.1f %%\r\n", temperature, humidity);
+        printf(message);
         HAL_Delay(1000);
     }
 }

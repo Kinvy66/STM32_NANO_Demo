@@ -30,6 +30,7 @@ static void SDA_OUT(void)
     GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
     GPIO_InitStruct.Pull = GPIO_PULLUP;
     GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+    HAL_GPIO_Init(SDA_GPIO_Port, &GPIO_InitStruct);
 
 }
 
