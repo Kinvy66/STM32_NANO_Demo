@@ -1,5 +1,7 @@
 #include "qmi8658.h"
 #include "i2c_soft.h"
+#include "stdio.h"
+#include "math.h"
 uint8_t QMI8658_ReadReg(uint8_t dAddr, uint8_t Reg)
 {
     uint8_t Value = 0;
@@ -58,56 +60,69 @@ void QMI8658_WriteReg(uint8_t dAddr, uint8_t Reg, uint8_t Value)
     I2C_Stop();
 }
 
-void QMI8658_Init()
-{
+void QMI8658_Init() {
     uint8_t uChipID = 0;
-    uint16_t AX=0,AY=0,AZ=0,GX=0,GY=0,GZ=0;
-    // 1.Device Reset & check Device
-    QMI8658_WriteReg(QMI8658_DEV,CTRL9,0xA2); //PowerReset
-    delay_ms(2000);                           // wait stable
-    uChipID = QMI8658_ReadReg(QMI8658_DEV,0x00); // Read ID
-    while(uChipID != 0x5) delay_ms(2000);        // device check
-    printf("QMC5883 check Pass!:deviceID = 0x%x \r\n",uChipID);
+    // 读芯片的ID号
+    uChipID = QMI8658_ReadReg(QMI8658_SENSOR_ADDR, QMI8658_WHO_AM_I); // Read ID
+    while (uChipID != 0x5) {
+        HAL_Delay(2000);        // device check
+        uChipID = QMI8658_ReadReg(QMI8658_SENSOR_ADDR, QMI8658_WHO_AM_I); // Read ID
+        printf("QMI8658 Error %d!\r\n", uChipID);
+
+    }
+    printf("QMI8658 OK!\r\n");
 
     //2.Device Settings
-    QMI8658_WriteReg(QMI8658_DEV,CTRL1,0x40); //地址自增，小端
-    QMI8658_WriteReg(QMI8658_DEV,CTRL2,0x33); //配置加速度计 量程+-16g，采样率ODR==1kHZ
-    QMI8658_WriteReg(QMI8658_DEV,CTRL3,0x73); //配置陀螺仪  量程±2048 dps ,采样率是940HZ
-    QMI8658_WriteReg(QMI8658_DEV,CTRL5,0x0); //不使用低通滤波器
-    QMI8658_WriteReg(QMI8658_DEV,CTRL6,0x0); //不使用Motion on Demand
-    QMI8658_WriteReg(QMI8658_DEV,CTRL7,0x03); // 使能加速度计和陀螺仪
+    QMI8658_WriteReg(QMI8658_SENSOR_ADDR, QMI8658_RESET, 0xb0); // 复位
+    HAL_Delay(10);
+    QMI8658_WriteReg(QMI8658_SENSOR_ADDR, QMI8658_CTRL1, 0x40); // CTRL1 设置地址自动增加
+    QMI8658_WriteReg(QMI8658_SENSOR_ADDR, QMI8658_CTRL7, 0x03); // CTRL7 允许加速度和陀螺仪
+    QMI8658_WriteReg(QMI8658_SENSOR_ADDR, QMI8658_CTRL2, 0x95); // CTRL2 设置ACC 4g 250Hz
+    QMI8658_WriteReg(QMI8658_SENSOR_ADDR, QMI8658_CTRL3, 0xd5); // CTRL3 设置GRY 512dps 250Hz
+}
 
-    delay_ms(2000);
+// 读取加速度和陀螺仪寄存器值
+void qmi8658_Read_AccAndGry(t_sQMI8658 *p)
+{
+    uint8_t status, data_ready=0;
+    int8_t buf[12];
 
-    for(;;){
-        AX = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AX_H);
-        AX = AX<<8;
-        AX = AX | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AX_L);
+    status = QMI8658_ReadReg(QMI8658_SENSOR_ADDR, QMI8658_STATUS0); // 读状态寄存器
+    if (status & 0x03) // 判断加速度和陀螺仪数据是否可读
+        data_ready = 1;
+    if (data_ready == 1){  // 如果数据可读
+        data_ready = 0;
+        for (int i = 0; i < 12; i++) {
+            buf[i] =  QMI8658_ReadReg(QMI8658_SENSOR_ADDR, QMI8658_AX_L + i);
+        }
 
-        AY = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AY_H);
-        AY = AY<<8;
-        AY = AY | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AY_L);
+        p->acc_x = (int16_t)((buf[1] << 8) | (buf[0] & 0xFF));
+        p->acc_y = (int16_t)((buf[3] << 8) | (buf[2] & 0xFF));
+        p->acc_z = (int16_t)((buf[5] << 8) | (buf[4] & 0xFF));
+        p->gyr_x = (int16_t)((buf[7] << 8) | (buf[6] & 0xFF));
+        p->gyr_y = (int16_t)((buf[9] << 8) | (buf[8] & 0xFF));
+        p->gyr_z = (int16_t)((buf[11] << 8) | (buf[10] & 0xFF));
 
-        AZ = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AZ_H);
-        AZ = AZ<<8;
-        AZ = AZ | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,AZ_L);
-
-        GX = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GX_H);
-        GX = GX<<8;
-        GX = GX | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GX_L);
-
-        GY = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GY_H);
-        GY = GY<<8;
-        GY = GY | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GY_L);
-
-        GZ = (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GZ_H);
-        GZ = GZ<<8;
-        GZ = GZ | (uint16_t)QMI8658_ReadReg(QMI8658_DEV,GZ_L);
-
-        printf("QMC5883 GX=%d\r\n", GX);
-        printf("QMC5883 GY=%d\r\n", GY);
-        printf("QMC5883 GZ=%d\r\n", GZ);
-        delay_ms(60000);
+        printf("gx:%d, gy:%d, gz:%d\r\n", p->gyr_x, p->gyr_y, p->gyr_z);
     }
 }
 
+
+// 获取XYZ轴的倾角值
+void qmi8658_fetch_angleFromAcc(t_sQMI8658 *p)
+{
+    float temp;
+
+    qmi8658_Read_AccAndGry(p); // 读取加速度和陀螺仪的寄存器值
+    // 根据寄存器值 计算倾角值 并把弧度转换成角度
+    temp = (float)p->acc_x / sqrt( ((float)p->acc_y * (float)p->acc_y + (float)p->acc_z * (float)p->acc_z) );
+    p->AngleX = atan(temp)*57.29578f; // 180/π=57.29578
+
+    temp = (float)p->acc_y / sqrt( ((float)p->acc_x * (float)p->acc_x + (float)p->acc_z * (float)p->acc_z) );
+    p->AngleY = atan(temp)*57.29578f; // 180/π=57.29578
+    temp = sqrt( ((float)p->acc_x * (float)p->acc_x + (float)p->acc_y * (float)p->acc_y) ) / (float)p->acc_z;
+    p->AngleZ = atan(temp)*57.29578f; // 180/π=57.29578
+
+    printf("x:%f, y:%f, z:%f\r\n", p->AngleX, p->AngleY, p->AngleZ);
+
+}

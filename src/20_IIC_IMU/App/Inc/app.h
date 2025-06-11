@@ -11,7 +11,6 @@
 #include "main.h"
 #include "led.h"
 #include "lcd.h"
-#include "aht20.h"
 
 void app_main(void);
 

@@ -27,7 +27,7 @@ void app_main(void)
         sprintf(message, "Temperature: %.1f 'C", temperature);
         lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, message);
         printf(message);
-        
+
         sprintf(message, "Humidity: %.1f %%", humidity);
         lcd_show_str(10, 10 + 20*2, &ASCII_Font20, LCD_RED, message);
         // sprintf(message, "soft温度: %.1f ℃，湿度: %.1f %%\r\n", temperature, humidity);

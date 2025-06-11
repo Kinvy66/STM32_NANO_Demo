@@ -34,8 +34,60 @@
     <list default="true" id="2e85983a-8934-4b86-b1af-f571886f192b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19_IIC_AHT20/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../19_IIC_AHT20/App/Src/app.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/aht20.c" beforeDir="false" afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/aht20.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/i2c_soft.c" beforeDir="false" afterPath="$PROJECT_DIR$/../19_IIC_AHT20/Bsp/Src/i2c_soft.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/.mxproject" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/.mxproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/App/Inc/app.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/App/Inc/app.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/App/Src/app.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/App/Src/app.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Inc/aht20.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Inc/qmi8658.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Inc/qmi8658.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Src/aht20.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Src/i2c_soft.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Src/i2c_soft.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Src/qmi8658.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Bsp/Src/qmi8658.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/CMSIS/Device/ST/STM32F1xx/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_spi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_IIC_IMU/cmake/stm32cubemx/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../20_IIC_IMU/cmake/stm32cubemx/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../21_RTC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21_RTC/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,6 +174,7 @@
       <updated>1749355480259</updated>
       <workItem from="1749355481365" duration="14143000" />
       <workItem from="1749642407990" duration="1161000" />
+      <workItem from="1749652144615" duration="594000" />
     </task>
     <servers />
   </component>

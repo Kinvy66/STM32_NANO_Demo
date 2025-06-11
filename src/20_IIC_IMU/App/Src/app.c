@@ -9,6 +9,7 @@
 #include "stdio.h"
 #include "usart.h"
 #include "key.h"
+#include "qmi8658.h"
 
 
 /**
@@ -17,17 +18,12 @@
 void app_main(void)
 {
     lcd_init();
-    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "IIC AHT20");
-    AHT20_Init();
-    char message[50];
-    float temperature = 0.0, humidity = 0.0;
-
+    lcd_show_str(10, 10, &ASCII_Font20, LCD_RED, "IIC QMI8658");
+    QMI8658_Init();
+    // HAL_GPIO_WritePin(SCL_GPIO_Port, SCL_Pin, GPIO_PIN_SET);
+    t_sQMI8658 p;
     while (1) {
-        AHT20_Read(&temperature, &humidity);
-        // sprintf(message, "temp: %.1f C, hum: %.1f %%", temperature, humidity);
-        sprintf(message, "soft温度: %.1f ℃，湿度: %.1f %%\r\n", temperature, humidity);
-        printf(message);
-        // lcd_show_str(10, 10 + 20, &ASCII_Font20, LCD_RED, message);
-        HAL_Delay(1000);
+        qmi8658_fetch_angleFromAcc(&p);
+        HAL_Delay(2000);
     }
 }
