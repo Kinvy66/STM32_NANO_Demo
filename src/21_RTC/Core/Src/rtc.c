@@ -21,7 +21,7 @@
 #include "rtc.h"
 
 /* USER CODE BEGIN 0 */
-
+#include "stdio.h"
 /* USER CODE END 0 */
 
 RTC_HandleTypeDef hrtc;
@@ -52,12 +52,18 @@ void MX_RTC_Init(void)
   }
 
   /* USER CODE BEGIN Check_RTC_BKUP */
-
+    if (HAL_RTCEx_BKUPRead(&hrtc, RTC_BKP_DR1) == 0X5050) //是否第一次配置
+    {
+        return;
+    } else {
+        HAL_RTCEx_BKUPWrite(&hrtc, RTC_BKP_DR1, 0X5050); //标记已经初始化过了
+        printf("First Set RtC\r\n");
+    }
   /* USER CODE END Check_RTC_BKUP */
 
   /** Initialize RTC and set the Time and Date
   */
-  sTime.Hours = 0x12;
+  sTime.Hours = 0x8;
   sTime.Minutes = 0x20;
   sTime.Seconds = 0x15;
 
@@ -65,10 +71,10 @@ void MX_RTC_Init(void)
   {
     Error_Handler();
   }
-  DateToUpdate.WeekDay = RTC_WEEKDAY_FRIDAY;
-  DateToUpdate.Month = RTC_MONTH_JUNE;
-  DateToUpdate.Date = 0x19;
-  DateToUpdate.Year = 0x98;
+  DateToUpdate.WeekDay = RTC_WEEKDAY_SATURDAY;
+  DateToUpdate.Month = RTC_MONTH_JULY;
+  DateToUpdate.Date = 0x1;
+  DateToUpdate.Year = 0x23;
 
   if (HAL_RTC_SetDate(&hrtc, &DateToUpdate, RTC_FORMAT_BCD) != HAL_OK)
   {

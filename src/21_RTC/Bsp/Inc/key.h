@@ -6,20 +6,27 @@
 * @description: 
 **/
 
-#ifndef __KEY_KEY_H
-#define __KEY_KEY_H
+#ifndef __KEY_H
+#define __KEY_H
 #include "main.h"
+#include "hal_key.h"
 
-#define KEY1        HAL_GPIO_ReadPin(KEY1_GPIO_Port,KEY1_Pin)  //KEY0按键PC8
-#define KEY2        HAL_GPIO_ReadPin(KEY2_GPIO_Port,KEY2_Pin)  //KEY1按键PC9
-#define KEY3        HAL_GPIO_ReadPin(KEY3_GPIO_Port,KEY3_Pin)  //KEY2按键PD2
-#define WK_UP       HAL_GPIO_ReadPin(WK_UP_GPIO_Port,WK_UP_Pin)  //WKUP按键PA0
+void key1_short_press(void);
+void key2_short_press(void);
+void key3_short_press(void);
+void key4_short_press(void);
 
-#define KEY1_PRES	1	//KEY0
-#define KEY2_PRES	2	//KEY1
-#define KEY3_PRES	3	//KEY2
-#define WKUP_PRES	4	//WK_UP
+void key1_long_press(void);
+void key2_long_press(void);
+void key3_long_press(void);
+void key4_long_press(void);
 
-uint8_t key_scan(uint8_t mode);
+void key1_dbclk_press(void);
+void key2_dbclk_press(void);
+void key3_dbclk_press(void);
+void key4_dbclk_press(void);
 
-#endif //__KEY_KEY_H
+void key_init(void);
+void key_handle(void);
+
+#endif //__KEY_H

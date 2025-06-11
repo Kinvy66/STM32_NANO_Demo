@@ -28,6 +28,5 @@ void app_main(void)
         sprintf(str, "20%02x-%02x-%02x %02x:%02x:%02x\r\n", sDate.Year, sDate.Month, sDate.Date, sTime.Hours, sTime.Minutes, sTime.Seconds);
         printf("%s", str);
         HAL_Delay(1000);
-
     }
 }
